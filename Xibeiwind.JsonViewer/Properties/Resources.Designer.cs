@@ -59,5 +59,25 @@ namespace Xibeiwind.JsonViewer.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btnCloseFind_BackgroundImage {
+            get {
+                object obj = ResourceManager.GetObject("btnCloseFind.BackgroundImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 There was an error during initialization. If you get this message when trying to use the Fiddler plugin or the Visual Studio Visualizer, please follow the instructions in the ReadMe.txt file. 
+        ///The error was: {0} 的本地化字符串。
+        /// </summary>
+        internal static string ConfigMessage {
+            get {
+                return ResourceManager.GetString("ConfigMessage", resourceCulture);
+            }
+        }
     }
 }

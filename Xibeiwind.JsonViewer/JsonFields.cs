@@ -37,9 +37,9 @@ namespace Xibeiwind.JsonViewer
 
         public void Add(JsonObject jsonObject)
         {
-            jsonObject.Parent = Parent;
+            //jsonObject.Parent = Parent;
             FieldsById[jsonObject.Id] = jsonObject;
-            Parent.Modified();
+            //Parent.Modified();
         }
     }
 }
